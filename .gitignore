@@ -1,0 +1,12 @@
+# Dependency directories
+node_modules/
+
+# Build directory
+dist/
+
+# Yarn
+.yarn-integrity
+yarn-error.log
+
+# dotenv environment variables file
+.env

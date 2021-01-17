@@ -1,0 +1,23 @@
+@import "@/styles/mixins/colors";
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 160px;
+  width: 100%;
+
+  a {
+    text-transform: uppercase;
+    transition: color 0.2s ease;
+    font-size: 0.8rem;
+
+    &:hover {
+      color: $black;
+    }
+  }
+}
+
+.logo {
+  width: 200px;
+}

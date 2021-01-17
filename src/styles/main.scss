@@ -1,0 +1,27 @@
+@import 'mixins/colors';
+
+html {
+  font-family: 'Arial', sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: $white;
+  padding: 0 3rem 0 3rem;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: $gray;
+}
